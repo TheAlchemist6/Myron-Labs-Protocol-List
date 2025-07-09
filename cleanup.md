@@ -1,3 +1,26 @@
+✨ Introducing: /cleanup ✨
+
+This command is a quick and safe way to get Claude to clean up your workspace, especially after it's created temporary files, test scripts, or empty folders during development.
+
+Why use this one?
+  
+🧠 Smart & Safe: It won't delete anything it's not 100% sure about. If there's any doubt, it creates a list and asks for your permission first.
+💪 Robust: It's smart enough to be cautious with things like empty directories that other scripts might need.
+🔧 Customizable: You can easily tweak the script to fit your own needs.
+
+-----------------------------------
+
+# How to Install
+
+Create this file (if it doesn't exist):
+~/.claude/commands/cleanup.md
+Paste the code below into that cleanup.md file.
+Run it in your terminal anytime with /cleanup.
+
+
+-----------------------------------
+
+
 ### **PROTOCOL: Workspace Cleanup & Optimization**
 
 **Objective:**
