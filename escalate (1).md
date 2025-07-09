@@ -6,10 +6,9 @@ It basically teaches Claude how to stop guessing and start analyzing the real pr
 
 1. Create the file:
 
-Save the script below in this exact location:
+   - Save the script below in this exact location:
 
-~/.claude/commands/escalate.md
-
+   - ~/.claude/commands/escalate.md
 
 2. Use the command:
 
