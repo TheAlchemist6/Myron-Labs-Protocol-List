@@ -1,3 +1,101 @@
+Check out this awesome command script I made for working with Claude! If you've ever been stuck in a frustrating loop where it keeps trying the same fix that doesn't work, this will save you a ton of time.
+
+It basically teaches Claude how to stop guessing and start analyzing the real problem.
+
+# How to Set It Up
+
+1. Create the file:
+
+Save the script below in this exact location:
+
+~/.claude/commands/escalate.md
+
+
+2. Use the command:
+
+Now, whenever Claude gets stuck, you can just type /escalate to activate the protocol.
+
+-----
+
+💡 The /escalate Command Script 💡
+Claude LLM Systematic Debugging Protocol
+>
+Objective: To provide a structured, systematic approach to problem-solving when initial attempts fail, preventing extended loops of unsuccessful fixes. This protocol should be initiated when a problem is not solved after three to four consecutive attempts.
+>
+-----
+>
+#### 1.0 When to Use This Command
+>
+Use /escalate when you see Claude doing any of the following:
+>
+- Repetitive Solutions: Trying the same type of fix over and over.
+- Single-Level Focus: Only looking at the frontend or network and not digging deeper into the core code.
+- Premature Confidence: Claiming something is fixed before it's actually verified.
+- Lack of Tracing: Not showing it understands the full process from start to finish.
+>
+-----
+>
+#### 2.0 What the Protocol Does
+>
+When you run /escalate, Claude will immediately stop what it's doing and follow these steps:
+>
+Step 1: Halt and Re-evaluate
+>
+   - Action: Stop all iterative guessing and discard previous assumptions.
+>
+Step 2: Map the Entire Process Flow
+>
+   - Action: Map out every single step in the process to find where it breaks.
+>
+Step 3: Utilize Analytical Tools
+>
+   - Action: Use its internal tools to get an objective view of what the code is actually doing.
+>
+Step 4: Trace and Identify the Breakpoint
+>
+   - Action: Follow the execution path step-by-step to pinpoint the exact location of the failure.
+>
+---------------------------------------------
+>
+#### 3.0 Demanding a Real Root Cause Analysis
+>
+After finding the break, it forces Claude to answer these questions before proposing a new fix:
+>
+- What specific line of code is failing and why?
+- What system layer is responsible for this behavior?
+- How will the proposed fix address this specific root cause?
+>
+-----
+>
+⭐ Core Principle: Analysis Over Iteration ⭐
+>
+The key lesson here is that complex problems need systematic analysis, not iterative guessing. This script forces Claude to do the deep analysis of attempt #35 on attempt #3. Give it a try!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### `Claude LLM Systematic Debugging Protocol`
 
 **Objective:** To provide a structured, systematic approach to problem-solving when initial attempts fail, preventing extended loops of unsuccessful fixes. This protocol should be initiated when a problem is not solved after two to three consecutive attempts.
