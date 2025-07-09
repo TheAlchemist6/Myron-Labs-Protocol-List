@@ -4,9 +4,9 @@ This command is a quick and safe way to get Claude to clean up your workspace, e
 
 Why use this one?
   
-🧠 Smart & Safe: It won't delete anything it's not 100% sure about. If there's any doubt, it creates a list and asks for your permission first.
-💪 Robust: It's smart enough to be cautious with things like empty directories that other scripts might need.
-🔧 Customizable: You can easily tweak the script to fit your own needs.
+1. 🧠 Smart & Safe: It won't delete anything it's not 100% sure about. If there's any doubt, it creates a list and asks for your permission first.
+2. 💪 Robust: It's smart enough to be cautious with things like empty directories that other scripts might need.
+3. 🔧 Customizable: You can easily tweak the script to fit your own needs.
 
 -----------------------------------
 
