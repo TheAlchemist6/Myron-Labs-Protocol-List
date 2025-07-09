@@ -12,10 +12,10 @@ Why use this one?
 
 # How to Install
 
-Create this file (if it doesn't exist):
-~/.claude/commands/cleanup.md
-Paste the code below into that cleanup.md file.
-Run it in your terminal anytime with /cleanup.
+1. Create this file (if it doesn't exist):
+2. ~/.claude/commands/cleanup.md
+3. Paste the code below into that cleanup.md file.
+4. Run it in your terminal anytime with /cleanup.
 
 
 -----------------------------------
