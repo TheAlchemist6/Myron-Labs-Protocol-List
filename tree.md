@@ -1,3 +1,15 @@
+# Setup guide
+
+1. Create this file: ~/.claude/commands/tree.md
+2. Modify the tree command (also install the tree command with `sudo apt -y install tree`) so it matches and escapes the right things
+3. Restart Claude code
+4. Call with /tree command
+
+This fast updates Claude code on your entire code base layout.
+You can now easily give Claude the ENTIRE birds eye view of your project files fast and have him use this info to optimize and enhance the next tasks you are working on together.
+
+
+
 # Project Structure Overview (`tree`)
 
 Quickly visualize the source layout while ignoring generated artifacts.
